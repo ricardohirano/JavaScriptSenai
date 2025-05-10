@@ -1,7 +1,7 @@
 Tarefas:
-1- Adicionar texto "Galeria de imagens" acima da imagem maior;
+1- Adicionar texto "Galeria de imagens" acima da imagem maior;✅
 
-2 -Adicionar cor de fundo com duas cores (gradiente);
+2 -Adicionar cor de fundo com duas cores (gradiente);✅
 
 3- Aumentar as proporções de exibição de todas as imagens;
 
