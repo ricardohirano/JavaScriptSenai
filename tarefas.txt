@@ -1,0 +1,15 @@
+Tarefas:
+1- Adicionar texto "Galeria de imagens" acima da imagem maior;
+
+2 -Adicionar cor de fundo com duas cores (gradiente);
+
+3- Aumentar as proporções de exibição de todas as imagens;
+
+4 -Adicionar mais 1 imagem;
+
+5- Substituir as 4 imagens utilizadas por fotos da internet;
+
+6- Para as 4 miniaturas, ao invés de mostrar as imagens pequenas, mostrar as letras (A, B, C e D);
+
+7 -Substituir o evento do script para compreender a ação de "passar o mouse sobre".
+
