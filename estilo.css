@@ -15,3 +15,23 @@ body{
     justify-content: center; 
     align-items: center;
 }
+#imagem-grande{
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain; /*Garantir que a imagem caiba dentro do container*/
+}
+#miniaturas-container{
+    display: flex;
+    gap: 10px;
+}
+#miniaturas-container img{
+    width: 100px;
+    height: 75px;/*posso optar por auto*/
+    object-fit: cover; /*Se a a imagem nao couber ela sera cortada*/
+    cursor: pointer;
+    border: 3px solid #222;
+    transition: transform 0.2s ease-in-out; 
+}
+#miniatura-container img:houver{
+    transform: scale(1.1);
+}
