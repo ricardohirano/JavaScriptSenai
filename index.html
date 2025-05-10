@@ -1,0 +1,29 @@
+<!--
+OBJETIVO: criar uma galeria de imagens onde miniaturas serão exibidas.
+Ao clicar em uma miniatura, será exibida uma versão maior na parte superior.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <!--Esttilização/formatação da pagina HTML-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Recebe a Imagem Maior-->
+    <div id="imagem-grande-container">
+        <img id="imagem-grande" src="imagens/imagem-padrao.jpg"  alt="Imagem grande">
+    </div>
+    <!--Recebe as miniaturas-->
+    <div id ="miniaturas-container">
+        <img src="imagens/miniatura1.jpg" alt="miniatura 1" data-full-image="imagens/imagem1.jpg">
+        <img src="imagens/miniatura2.jpg" alt="miniatura 2" data-full-image="imagens/imagem2.jpg">
+        <img src="imagens/miniatura3.jpg" alt="miniatura 3" data-full-image="imagens/imagem3.jpg">
+    </div>
+    <!--Script (JS) que coordena as açoes no html-->
+    <script src="script.js"></script>
+</body>
+</html>
