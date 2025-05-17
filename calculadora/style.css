@@ -1,0 +1,136 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; /*ch = viewport height*/
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.calculadora{
+    background-color: cornsilk;
+    border-radius: 12px;
+    border: solid 20px #6f809e;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+    width: 320px;
+}
+
+#visor{
+    width: 100%;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: right;
+    border: none;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    font-size:1.8em;
+    padding: 20px;
+    border: none;
+    background-color: #f9f9f9;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: #e0e0e0;
+}
+/*Operadores*/
+.operador{
+    background-color: #d99433;
+    color: white;
+}
+.operadar:hover{
+    background-color: #b57026;;
+}
+/*Igual*/
+#igual{
+    background-color: #2c8a2c;
+    color: white;
+    grid-column: span 1; 
+}
+#igual:hover{
+    background-color: #267826;
+}
+/*Limpar*/
+#limpar{
+    background-color: #db3d37;
+    color: White;
+    grid-column: span 1;
+}
+#limpar:hover{
+    background-color: #a01f1a;
+}
+/*BackSpace*/
+#backspace{
+    background-color: #737c7f;
+    color: white;
+    grid-column: span 1;
+}
+#backspace:hover{
+    background-color: #5b6264;
+}
+/*ON/Off*/
+#ligar_desligar{
+    background-color: #282828;
+    color: white;
+    grid-column: span 1;
+}
+#ligar_desligar:hover{
+    background-color: black;
+}
+/*Numero*/
+.numero{
+    background-color: #f2f4f5;
+    color: black;
+}
+.numero:hover{
+    background-color: #d5d7d7;
+}   
+/*som*/
+#som{
+    background-color: #737c7f;
+    color: white;
+}
+#som:hover{
+    background-color: #5b6c64;
+}
+#som.som-ligado{
+    background-color: #7abc7a;
+    color: #037403;
+}
+/*Info*/
+.info{
+    background-color: #282828;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    grid-column: span 3;
+}
+.info:hover{
+    background-color: black;
+}
+/* Pequenas melhorias*/
+button:active {
+    transform: scale(0.95);
+}
+/*Remover o focus*/
+button:focus {
+    outline:none;
+}
+#visor:focus {
+    outline:none;
+}

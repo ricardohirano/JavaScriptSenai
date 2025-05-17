@@ -1,0 +1,30 @@
+body{
+    font-family: Sans-Serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container{/* O "." referece a CLASSE containner*/
+    background-color: #223BF5;
+    text-align: center;
+    color: #74F522;
+    font-size: 25px;
+    border-radius: 10%;
+}
+#contador{/* O "#" referece ao ID contador*/ 
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+
+}
+button{/* Apenas o nome button se refere a TAg button*/
+    font-size: 25px;
+    padding:10px 50px 10px;
+    margin: 10px;
+    background-color: #F55C22;
+    border-radius: 10%;
+}

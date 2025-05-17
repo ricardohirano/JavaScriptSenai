@@ -1,0 +1,11 @@
+const visor = document.getElementById('visor');
+const powerBotao = document.getElementById('ligar_desligar');
+const limparBotao = document.getElementById('limpar');
+const backspaceBotao = document.getElementById('backspace');
+const igualbotao = document.getElementById('igual');
+const porcentoBotao = document.getElementById('porcento');
+const numeroBotoes = document.querySelectorAll('.numero'); /*Atenção */
+const operadoresBotoes = document.querySelectorAll('.operador'); /*Atenção */
+const infoBotao = document.querySelectorAll('.info'); /*Atenção */
+const somBotao = document.getElementById('som');
+const decimalBotao = document.getElementById('decimal');
