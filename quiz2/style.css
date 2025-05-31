@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+.questao{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.opcao button{
+    display:block;
+    width: 100%;
+    margin: 5px 0; /* 5 px acima e baixo e 0 esquerda e direita*/
+    padding: 10px;
+}

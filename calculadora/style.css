@@ -93,22 +93,22 @@ button:hover{
     background-color: black;
 }
 /*Numero*/
-.numero{
+.numero {
     background-color: #f2f4f5;
     color: black;
 }
-.numero:hover{
+.numero:hover {
     background-color: #d5d7d7;
 }   
 /*som*/
-#som{
+#som {
     background-color: #737c7f;
     color: white;
 }
-#som:hover{
-    background-color: #5b6c64;
+#som:hover {
+    background-color: #5b6264;
 }
-#som.som-ligado{
+#som.som-ligado {
     background-color: #7abc7a;
     color: #037403;
 }
@@ -118,7 +118,7 @@ button:hover{
     color: white;
     font-size: 50px;
     font-weight: bold;
-    grid-column: span 3;
+    grid-column: span 2;
 }
 .info:hover{
     background-color: black;
